@@ -1,0 +1,8 @@
+while True:                 #true -> True
+    line = input('<')
+    if line[0] == '#':
+        continue
+    if line == 'done':
+        break
+    print(line)             #python 3 => print line -> print(line)
+print('Done!')              #python 3 => print 'Done!' -> print('Done!')
