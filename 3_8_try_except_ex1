@@ -1,0 +1,9 @@
+astr = 'Bob'
+try:
+    print('Hello')
+    istr = int(astr)
+    print('There')        # never executes
+except:
+    istr = -1
+    
+print('Done', istr)
