@@ -1,0 +1,69 @@
+=====================================================================================
+
+# comparison operators
+
+# < <= >= >
+# == equal to   != not equal
+
+# boolean expressions ask a question and produce a Yes or No
+  result which we use to control program flow
+# boolean expressions using comparison operators evaluate to
+  - True/False - Yes/No
+# comparison operators look at variables but do not change the variables
+
+=====================================================================================
+
+# indentation
+
+# increase indent after an "if" statement or "for" statement (after:)
+# maintain indent to indicate the scope of the block (which lines are
+  affected by the if/for)
+# reduce indent back to the level of the if statement or for statement 
+  to indicate the end of the block
+# blank lines are ignored - they do not affect indentation
+# comments on a line by themselves are ignored with regard to indentation
+
+=====================================================================================
+
+# multi-way puzzles
+
+# Which will never execute?
+
+# case A
+
+if x < 2:
+    print('Below 2')
+elif x >= 2:
+    print('Two or more')
+else:                                  
+    print('Something else')            # here
+    
+# case B
+
+if x < 2:
+    print('Below 2')
+elif x < 20:
+    print('Below 20')
+elif x < 10:                           
+    print('Below 10')                  # here
+else:
+    print('Something else')
+
+=====================================================================================    
+
+# the try/except structure
+
+# you surround a dangerous section of code with "try" and "except"
+# if the code in the "try" works - the "except" is skipped
+# If the code in the "try" fails - it jumps to the "except" section 
+
+=====================================================================================
+
+# conditional code summary
+
+# comparison operators                # two way decisions if: and else:
+  == <= >= > < !=                     # nested decisions
+# logical operators: and or not       # multiway decisions using elif
+# indentation                         # try/except to compensate for errors
+# one way decisions                   # short circuit evaluations
+
