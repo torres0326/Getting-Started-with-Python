@@ -1,0 +1,15 @@
+astr = 'Hello Bob'
+try:                                     # when the first conversion fails - it just drops into the
+    istr = int(astr)                     # except: clause and the program continues
+except:
+    istr = -1
+    
+print('First', istr)
+
+astr = '123'
+try:                                     # when the second conversion suceeds - it just skips the
+    istr = int(astr)                     # except: clause and the program continues
+except:
+    istr = -1
+    
+print('Second', istr)
